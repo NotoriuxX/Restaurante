@@ -1,0 +1,77 @@
+/*color de la letras c4d5de*/ 
+/*color de la letras hover  dafe64*/
+/*color del nav: rgb(66 46 46) y letras del nav:#F7FAF7 */
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Belgrano', serif;
+    font-weight: 400;
+}
+
+/*---------------- BARRA NAV-----------------*/
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.img_logo {
+    height: 6.3125em;
+}
+.nav-link {
+    color: #ffffff !important;
+    
+}
+.img_logo:hover {
+    transform: scale(1.1);
+}
+.cab_nav{
+    background-color: rgb(66 46 46);
+    color: #c4d5de;
+    display: flex;
+    width: 100%;
+    height: 6.875em;
+    justify-content:space-between;
+}
+.contenidoflex{
+display: flex;
+margin: 0.9375rem 1.75rem -2.5rem 1.0625rem;
+color: #c4d5de;
+text-decoration: none;
+}
+ul.contenido{
+    display: flex;
+    position: relative;
+    width: 28.9375em;
+    font-size: 1.625em;
+    padding: 18px 0 0 0;
+    list-style: none;
+}
+
+/*---------------- medio-----------------*/
+body{
+    font-family: 'Belgrano', serif;
+    background-image: url("../IMG/fondorata.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.modal-content {
+    background-color: transparent !important;
+    border: transparent !important;
+    
+}
+a {
+    
+ text-decoration: none !important; 
+}
+
+
+

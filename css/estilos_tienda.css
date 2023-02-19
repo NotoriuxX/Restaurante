@@ -1,0 +1,632 @@
+/*---------------- BARRA NAV-----------------*/
+
+.img_logo:hover {
+    transform: scale(1.1);
+}
+.img_logo {
+    width: 82% !important;
+}
+.bi-person-circle{
+    font-size: 30px;
+}
+.nav {
+    align-items: center !important;
+    background-color: #000000c2;
+    color:#000000;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    height: 91px;
+
+  }
+input {
+    border: 0;
+    /* display: flex; */
+    width: 70px;
+}
+.nav-link{
+    color: #fffbfb !important;
+  }
+  a.nav-link {
+    font-size: 21px !important;
+}
+
+/*----------------------------------------*/
+/*----------------categoria de productos -----------------*/
+h4.panel_title{
+    font-size: 1.625rem;
+    color: #c4d5de;
+    margin: 0.625rem -0.0625rem 0.5rem 0.8125rem;
+}
+#buscador{
+    position: relative;
+    right: -0.265em;
+    top: -0.905em;
+    color: #c4d5de;
+}
+#buscador:hover{
+    color:#dafe64;
+}
+
+.buscar{
+    height: 1.5em;
+    padding: 0.125rem 0 0 0.5625rem;
+    font-size: 0.6875em;
+    color: #c4d5de;
+    outline: none;
+    /*border: 0.3125rem solid #c4d5de;*/
+    border-radius: 1.875em;
+    position: relative;
+    right: -3.125em;
+    top: -0.625em;
+    background-color: #4c535700;
+}
+.txt_panel{
+    width: 11em;
+    height: 2.5625em;
+    margin: 0 0 0 1.0625rem;
+    border: 0;
+    font-size:1em;
+}
+a.texto{
+    color:#c4d5de;
+}
+a.texto:hover{
+    color:#dafe64;
+}
+.categoria_menu{
+    background: #3b2626;
+    width: 12.75em;
+    height: 28.75em;
+    border-radius: 0.75em;
+}
+/*----------------tipos de productos -----------------*/
+
+.icon-buscador{
+    position: relative;
+    left: 7px;
+    top: 14px;
+    color: #fff;
+}
+.product {
+    text-align: center;
+    border-radius: 1.25em;
+    padding: 23px 0 24px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+    
+}
+i.bi.btn-primary {
+    font-size: 27px;
+
+}
+.container_price{
+    height: 5rem;
+}
+
+
+h2.main-title {
+    font-family: 'Rancho';
+    font-style: normal;
+    font-size: 64px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin: 0;
+    
+}
+   .product_drescrotion{
+       padding: 0.625rem;
+       text-align:center;
+       
+   }
+   .Product_drescrption{
+       
+       padding: 0 0.9375rem 0rem 0.9375rem;
+   }
+   .main{
+       padding: 1.25rem 1.3125rem;
+       color:#ffffff;
+   }
+   .product_title {
+        font-family: 'Rancho';
+        font-style: normal;
+        font-size: 31px;
+        color: #000000;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+        margin: 0;
+    
+}
+
+.carrito_product {
+   /* width: 1.25rem;
+    position: relative;
+    top: -5.375rem;*/
+    float: right;
+    color:#ffffff ;
+}
+.product_img {
+    width: 6.6875em;
+    height: 4.9375em;
+    padding: -0.625em;
+    border-radius: 74px;
+    object-fit: cover;
+}
+div#productos {
+    width: 359px;
+}
+.carrito_product:hover {
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+i#marial_product:hover{
+    color:gray;
+}
+
+#marial_product{
+
+    margin:-1.6125em 1.475em -3.625em 0;
+    
+}
+
+
+i.bi.btn-primary {
+    font-size: 27px;
+}
+i.bi.btn-primary {
+    padding: 0;
+}
+.contenedor_1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 333.2px;
+    height: 343px;
+}
+.product_price {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+}
+.dropdown {
+    position: relative;
+    left: -500px;
+}
+/*------------------------------*/
+
+/*---------------- medio-----------------*/
+
+.title_menu {
+    width: 11.125em;
+    height: 100%;
+    display: contents;
+}
+a.texto{
+    text-decoration: none;
+}
+
+.imagen{
+width: 79.5em;
+text-align: center;
+}
+
+.imagenr__img{
+    width: 37.875em;
+    left: -3.5em;
+    position: relative;
+}
+.categoria{
+    display: flex;
+    flex-wrap: nowrap;
+}
+img.imagenr__img2{
+    left: 65.5625em;
+    top: 5em;
+    width: 21%;
+    position: absolute;
+}
+h2.text_img{
+    font-size: 2.125em;
+    color:#c4d5de;
+    position: absolute;
+    top: 5.25em;
+    left: 31.8125em;
+}
+.tablercatego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 40px 0px 26px 0px;
+   
+    
+}
+
+
+/*--------------modal carrito-----------*/
+tr.container_tablero_nom {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+}
+th.th {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    }
+.canasta_titulo {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 22px;
+}
+h3#cantidad {
+    padding: 18px 11px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 31px;
+    line-height: 22px;
+}
+.nombre_canasta{
+    
+    font-family: 'Rancho';
+    font-style: normal;
+     font-size: 29px;
+    /* color: #000000; */
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    margin: 12px;
+}
+.precio_canasta{
+    text-decoration: none !important;
+    font-size: 1.25rem !important;
+    text-decoration: none !important;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+}
+.btn-outline-success {
+    margin: 7px 0 !important;
+}
+/*---------------------------------------*/
+
+
+.conteiner-productos_1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+
+  /*------------FOOTER-----------------*/
+    
+  .horario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 159px;
+}
+.horario p {
+    padding: 0px 0px 0px 0;
+    margin: 0px 0 11px 0px;
+}
+.txt_sub2{                                  
+    font-family: 'Josefin Sans';  
+    font-size: 19px;
+    line-height: 24px;
+    color: #E76F51;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 15px;
+}
+
+
+footer.container_1 {
+    background-color: #333333;
+    color: #FFF;
+    padding: 38px 0 0px 0px;
+    width: 100%;
+}
+.col-4{
+    width:384.5px;
+    height: 417px;
+}
+.footer_num {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.footer_ubi {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 67px 9px 0px;
+}
+
+.footer_ubicacion {
+    display: flex;
+    flex-direction: column;
+}
+.footer_ubicacion p {
+    margin: 0;
+}
+.hr {
+    width: 40%;
+    border: 1px solid #FFFFFF;
+}
+
+.footer_ubi {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 67px 23px 0px;
+}
+.img_maps {
+    width: 84%;
+    border-radius: 6px;
+    height: auto;
+    max-width: 300px;
+}
+img.img_logo {
+    max-width: 300px;
+}
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    padding-right: 47px !important;
+    padding-left: 56px !important;
+}
+i#redes {
+    font-size: 41px;
+}
+#comunicacion {
+    padding: 0px 0px 0 144px !important;
+}
+i.bi.bi-telephone {
+    padding: 0 23px 0px 0px;
+}
+i.bi.bi-geo-alt-fill {
+    padding: 0px 7px 0 0;
+    font-size: 32px;
+}
+.footer_sub {
+    display: flex;
+    justify-content: center;
+}
+.col-4 p {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.form_fondo {
+    height: 213px;
+}
+i.bi {
+    padding: 0 19px;
+    font-size: 18px;
+
+}
+/*------------Filtro-----*/
+nav .nav-wrapper {
+    background-color: rgb(97 211 179) !important;
+}
+.inicio{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:center;
+    position: relative;
+    top:182px;
+}
+form#form1{
+    width: 38%;
+}
+.h3_title {
+    font-size: 20px;
+}
+
+.title_sesion{
+    display:flex;
+    justify-content: space-around;
+}
+input[type="submit"] {
+    background-color: #61d3b3;
+    border: 0;
+    border-radius: 7px;
+}
+    input[type="submit"]:hover {
+        background-color: #aafbe4;
+    }
+
+img{
+    border-style:none;
+    width:66px;
+}
+a {
+    color: #0d6efd;
+    text-decoration:none !important;
+    font-size: 16px !important;
+}
+.product_price_1 {
+    text-decoration: none !important;
+    font-size: 1.25rem !important;
+    text-decoration: none !important;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;color: #333333;
+    }
+
+.product_price_2 {
+    text-decoration: none !important;
+}
+.product_price_3 {
+    text-decoration: none !important;
+}
+/*----------------------------------------*/
+
+/*-----------Preguntas Frecuentes------------*/
+
+.contenedor-preguntas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.contenedor-pregunta {
+    background: #fff;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+.contenedor-pregunta {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.contenedor-pregunta:hover {
+    box-shadow: var(--sombra);
+}
+
+.contenedor-pregunta.activa {
+    border: 2px solid var(--primario);
+}
+
+.pregunta {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans';
+}
+.respuesta {
+    color: #808080;
+    line-height: 30px;
+    max-height: 0;
+    opacity: 0;
+    transition: .3s ease all;
+    font-family: 'Josefin Sans';
+}
+
+.contenedor-pregunta.activa .respuesta {
+    opacity: 1;
+    margin-top: 20px;
+}
+
+
+.imgfpago{
+    width:9.6875em;
+    height:5.9375em;
+    padding:0.375em;
+    margin: 0em 1.8125em;
+    border-radius: 14px
+
+}
+
+.form1{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px 21px 0px;
+}
+
+/*----------- Final de Preguntas Frecuentes------------*/
+ /*----------boton terminal---------------*/
+
+
+ h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+    /* Add padding BETWEEN each column */
+    .row,
+    .row > .column {
+        padding: 8px;
+    }
+
+/* Create three equal columns that floats next to each other */
+.product {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #ddd;
+    }
+
+    .btn.active {
+        background-color: #666;
+        color: white;
+    }
+

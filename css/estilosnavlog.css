@@ -1,0 +1,24 @@
+.img_logo:hover {
+    transform: scale(1.1);
+}
+.img_logo {
+    width: 82% !important;
+}
+.bi-person-circle{
+    font-size: 30px;
+}
+.nav {
+    align-items: center !important;
+    background-color: #ffffffc2;
+    color:#000000;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+
+  }
+.nav-link{
+    color: #231818 !important;
+  }
+  

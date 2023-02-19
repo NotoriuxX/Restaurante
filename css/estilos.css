@@ -1,0 +1,467 @@
+
+/*---------------- BARRA NAV-----------------*/
+
+.img_logo:hover {
+    transform: scale(1.1);
+}
+.img_logo {
+    width: 82% !important;
+}
+.bi-person-circle{
+    font-size: 30px;
+}
+.slider__img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.text-white.h4 {
+    text-decoration: none;
+}
+.nav {
+    align-items: center !important;
+    background-color: #000000c2;
+    color:#000000;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    height: 91px;
+
+  }
+
+  .div12 {
+    width: 388px;
+    display: flex;
+    padding: 1px 28px;
+  }
+  
+
+.nav-link{
+    color: #fffbfb !important;
+  }
+
+  .form_1{
+    width: 430px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top:-676px ;
+  }
+  .form_1{
+    background-color:rgba(0, 0, 0, 0.719) ;
+    
+    
+    left: 871px;
+  }
+  
+  /*---------------- slider-----------------*/
+
+.conteiner-slider {
+    width: 71%;
+    max-width: 790px;
+    margin: 0.3125em -17.1875em 1.0625em 15.8125em;
+    overflow: hidden; /*oculta las otras imagenes*/
+    position: relative;
+}
+div#p2 {
+    margin: 17px 0 14px 197px;
+}
+.slider {
+    display: flex;
+    width: 200%;
+    height: 645px;
+    justify-content:space-between;
+    margin-left:-137%;
+}
+.slider__section{
+    width:100%;
+}
+.slider__img {
+    /*display: block;*/
+    max-width: 158%;
+    height: auto;
+    object-fit: cover;
+   
+}
+.slider__btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 37%;
+    background: rgb(222 222 222 / 70%);
+    /*transform: translateY(-50%);*/
+    font-size: 176%;
+    font-weight: bold;
+    font-family: monospace;
+    border-radius: 50%;
+    cursor: pointer; /*hace que esten un lado del otro*/
+    text-align: center;
+}
+    .slider__btn:hover {
+    background: rgb(174 174 174 / 70%);
+    }
+#slider__btn__left{
+    left: 10px;
+}
+#slider__btn__right{
+    right: 10px;
+}
+.d-flex{
+    align-items: baseline !important;
+}
+/*---------------pagina 1---------------*/
+.txt {
+    display: flex;
+}
+.p-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.txt__menu {
+    position: relative;
+    top: -163px;
+    left: 135px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 48px;
+
+color: #000000;
+
+
+  }
+.btn {
+    margin: 0 0 0 66px;
+}
+.buttom_pag1 {
+    position: relative;
+    top: -100px;
+    left: 69px;
+  }
+svg {
+    position: relative;
+    left: 108px;
+}
+.d-flex {
+    
+    justify-content: space-around !important;
+}
+.p-2 {
+    margin: 9px -29px 0px -132px !important;
+}
+div#p1 {
+    margin: 0 0 -0 -38px!important;
+    position: relative;
+    top: -82px;
+}
+.btn-warning {
+        width: 165px;
+        height: 50px;
+        filter: drop-shadow(5px 5px 15px #F4A261);
+        font-family: 'Libre Franklin';
+        color: #FFFFFF;
+}
+.btn-light{
+    width: 165px;
+        height: 50px;
+        filter: drop-shadow(5px 5px 15px #ffffff91);
+        font-family: 'Libre Franklin';
+        color: #FFFFFF;
+}
+/*--------Parte 2 -------*/
+.font2 {
+    width: 100%;
+    background-color: #EFEFEF;
+}
+.font2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 153px 103px 0px 0px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0;
+}
+.Especialidad_parte1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.d-flex {
+    
+    flex-wrap: wrap !important;
+}
+hr {
+    background-color: red;
+  }
+
+.Especialidad_parte2_sub1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+.center{
+
+font-family: 'Rancho';
+font-style: normal;
+font-size: 64px;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin:0;
+
+}
+.txt_sub1{                                  
+    font-family: 'Josefin Sans';  
+    font-size: 24px;
+    line-height: 24px;
+    color: #E76F51;
+    
+}
+.txt_sub1_1{                                  
+    font-family: 'Josefin Sans';  
+    font-size: 24px;
+    line-height: 24px;
+    color: #E76F51;
+    padding: 26px 0 0 0 !important;
+
+}
+.txt_sub2{
+    font-family: 'Josefin Sans'; 
+    font-size: 42px;
+}
+.txt_sub3{
+    font-family: 'Josefin Sans'; 
+    font-size: 20px;
+}
+.txt_sub4{
+    font-family: 'Josefin Sans'; 
+    font-size: 30px;
+}
+#btn_3 {
+    border-bottom: 18px !important;
+    width: 50% !important;
+    border-radius: 31px !important;
+}
+/*------------- 3 parte -------------*/
+.div_chef {
+    display: flex;
+    padding: 1.375rem 0rem;
+}
+img.img_chef {
+    padding: 0rem 3.375rem;
+}
+.cuadro_chef {
+    background-color: #fff;
+    position: relative;
+    top: -153px;
+    left: 94px;
+    width: 270px;
+    height: 130px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+p.icons_chef {
+    color: blue;
+    margin: 0 0 8px 0px;
+}
+
+i.bi {
+    padding: 0 19px;
+    font-size: 18px;
+
+}
+.nom_chef{
+font-family: 'Libre Franklin';
+font-style: normal;
+font-size: 22px;
+line-height: 27px;
+color: #333333;
+}
+.des_chef{
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 200;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+margin: 4px 0px 10px 0px;
+}
+
+.img_reserva{
+width: 1440px;
+height: 735px;
+left: 0px;
+top: 0px;
+
+
+}
+.form{
+}
+#nombre{
+    width: 350px;
+}
+#email{
+    width: 350px;
+}
+#telefono{
+    width: 350px;
+}
+#fecha{
+    width: 160px;
+}
+#hora{
+    width: 160px;
+}
+#cantidad_de_personas{
+    width: 350px;
+}
+#mensajes{
+    width: 350px;
+    height: 144.58px !important;
+
+
+}
+.form-control{
+    margin: 0 0 25px 0px;
+    height: 42.84px;
+}
+form{
+   background-color: rgba(0, 0, 0, 0.719);
+   display: flex;
+   flex-direction:column;
+   align-items:center;
+   width:80%;
+   height:80%;
+   
+   
+}
+.center_1{
+
+    font-family: 'Rancho';
+    font-style: normal;
+    font-size: 64px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin:0;
+    
+    }
+    #btn_4 {
+        border-bottom: 18px !important;
+        width: 170px !important;
+        height: 40px;
+        border-radius: 31px !important;
+    }
+    /*------------FOOTER-----------------*/
+    
+    .horario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 159px;
+    }
+    .horario p {
+        padding: 0px 0px 0px 0;
+        margin: 0px 0 11px 0px;
+    }
+    .txt_sub2{                                  
+        font-family: 'Josefin Sans';  
+        font-size: 19px;
+        line-height: 24px;
+        color: #E76F51;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        height: 15px;
+    }
+    
+    
+    footer.container_1 {
+        background-color: #333333;
+        color: #FFF;
+        padding: 38px 0 0px 0px;
+        width: 100%;
+    }
+    .col-4{
+        width:384.5px;
+        height: 417px;
+    }
+    .footer_num {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .footer_ubi {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 67px 9px 0px;
+    }
+    
+    .footer_ubicacion {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_ubicacion p {
+        margin: 0;
+    }
+    .hr {
+        width: 40%;
+        border: 1px solid #FFFFFF;
+    }
+    
+    .footer_ubi {
+        display: flex;
+        justify-content: flex-start;
+        padding: 0px 67px 23px 0px;
+    }
+    .img_maps {
+        width: 84%;
+        border-radius: 6px;
+        height: auto;
+        max-width: 300px;
+    }
+    img.img_logo {
+        max-width: 300px;
+    }
+    .col-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+        padding-right: 47px !important;
+        padding-left: 56px !important;
+    }
+    i#redes {
+        font-size: 41px;
+    }
+    #comunicacion {
+        padding: 0px 0px 0 144px !important;
+    }
+    i.bi.bi-telephone {
+        padding: 0 23px 0px 0px;
+    }
+    i.bi.bi-geo-alt-fill {
+        padding: 0px 7px 0 0;
+        font-size: 32px;
+    }
+    .footer_sub {
+        display: flex;
+        justify-content: center;
+    }
+    .col-4 p {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .form_fondo {
+        height: 213px;
+    }
+   

@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {margin:2em;}
+td:last-child {text-align:center;}
+table.dataTable thead .sorting_asc:after {
+    content: "\e155";
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    display: block;
+    font-family: 'Glyphicons Halflings';
+    opacity: 0.5;
+}
+form.formulario__editar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.text-white.h4 {
+    text-decoration: none;
+  }
